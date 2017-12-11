@@ -1,0 +1,316 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    @*<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110905611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110905611-1');
+    </script>*@
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Check out Tool Stats - a fantastic way to track, manage and share tool related information!">
+
+    <title>Tool Stats | Online Data Management & File Sharing</title>
+
+    <link rel="shortcut icon" href="content/images/favicon.png"/>
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="content/bootstrap.min.css" rel="stylesheet"/>
+    <link href="content/corp.css" rel="stylesheet"/>
+
+    <script src="scripts/modernizr-2.8.3.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="ts-header-logo"><img src="content/images/logo.png" alt="ToolStats Logo" /></div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="section-nav-link" href="#benefits">Benefits</a></li>
+                <li><a class="section-nav-link" href="#how">How it works</a></li>
+                <li><a class="section-nav-link" href="#mobile">Mobile Apps</a></li>
+                <li><a class="section-nav-link" href="#about">About Us</a></li>
+                <li><a class="section-nav-link" href="#about">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+<section class="banner">
+    <div class="container">
+        <div class="col-sm-6 sprite-wrapper hidden-xs"><div class="sprite sprite-person"></div></div>
+        <div class="col-sm-6 banner-text">
+            <div class="text-outer">
+                <div class="text-inner">
+                    <h2>Industry Leading Platform for Managing Tooling & Manufacturing Data</h2>
+                    <h3>Over 10,000 files shared daily</h3>
+                    <div class="button-group">
+                        <a class="btn btn-lg btn-default" href="#benefits">Learn more</a>
+                        <a class="btn btn-lg btn-primary" href="@ToolStats.Web.Corp.Configuration.AppSitePath">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="benefits">
+    <a class="anchor" id="benefits"></a>
+    <div class="container">
+        <div class="section-header">
+            <h2>Features &amp; Benefits</h2>
+            <p>Our global platform allows users to access their information any time, from anywhere. <br />Guarantee that your tool will never be without it's data!</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-save"></div>
+                        <div class="title-wrap">File Storage / Sharing</div>
+                    </div>
+                    <p>Turn your USB sticks, CDs, and email attachments into a thing of the past. Tool Stats provides a centralized platform where your whole team can collaborate, upload, and share data.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-clock"></div>
+                        <div class="title-wrap">Real Time Updates</div>
+                    </div>
+                    <p>Projects can be updated or modified at anytime allowing your information to stay current and always available to your team.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-target"></div>
+                        <div class="title-wrap">Maintenance Tracking</div>
+                    </div>
+                    <p>Our maintenance database allows users to report issues, log repairs, and track the history for each of your tools. Users can send alert notifications seconds after a problem occurs.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-alert"></div>
+                        <div class="title-wrap">PM Alerts</div>
+                    </div>
+                    <p>Eliminate downtime before it even happens. Automated alert schedules can be pre-set to notify team members when scheduled PM’s are due.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-graph"></div>
+                        <div class="title-wrap">Production Tracking</div>
+                    </div>
+                    <p>Become an OEE powerhouse. Production & process parameters can be logged and stored in our designated tool setup section. Keep all of the details & notes from the trials readily available with the tool when it arrives to your plant.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-globe"></div>
+                        <div class="title-wrap">Asset Tracking</div>
+                    </div>
+                    <p>Keep track of your tools location with our GPS tracking capabilities.  Know the exact location & condition of your assets, and be notified of any changes as they occur.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-lock"></div>
+                        <div class="title-wrap">Security</div>
+                    </div>
+                    <p>We understand how important your tooling data can be to your company. Take pride in knowing that you have control over it. With an encrypted database and full admin control, you have the power to allow and deny access to your files.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-title">
+                        <div class="icon benefit-icon benefit-display"></div>
+                        <div class="title-wrap">Project Timeline Tracking</div>
+                    </div>
+                    <p>Track the status & progress of your projects timeline through our project management scheduler. Notify team members when items are due or alert people when project milestones are  met so your program always stays on time. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonials">
+    <div class="container">
+        <div class="testimonial-slides"><div class="testimonial"><p>Please wait. The testimonials are loading...</p></div></div>
+        <div class="arrows">
+            <div class="arrow arrow-left"></div>
+            <div class="arrow arrow-right"></div>
+        </div>
+    </div>
+</section>
+<section class="how-it-works">
+    <a class="anchor" id="how"></a>
+    <div class="container">
+        <div class="section-header">
+            <h2>How it Works</h2>
+            <p>Tool Stats is simple to setup and easy to use. Make your data available globally within minutes.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="step">
+                    <div class="step-title">
+                        <span class="badge">1</span>
+                        Setup
+                    </div>
+
+                    <p>Login or sign up for a new account. Select your project options and enter your program details.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="step">
+                    <div class="step-title">
+                        <span class="badge">2</span>
+                        Customize
+                    </div>
+
+                    <p>Create & customize your storage folders to meet your program specific needs. Choose to password protect your sensitive data that only approved users can access.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="step">
+                    <div class="step-title">
+                        <span class="badge">3</span>
+                        Upload
+                    </div>
+
+                    <p>Once your job is ready you can upload your files or edit your projects at any time. Tool Stats is compatible with all file types, sizes, and formats.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="step">
+                    <div class="step-title">
+                        <span class="badge">4</span>
+                        Store & share
+                    </div>
+
+                    <p>Simply save your updates once complete and make your data instantly available to the people who need it.  Keep your information current and stored in one central location.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="on-the-go">
+    <a class="anchor" id="mobile"></a>
+    <div class="col-sm-7 image">
+        <div class="sprite sprite-iphone"></div>
+    </div>
+    <div class="col-sm-5">
+        <div class="text-outer">
+            <div class="text-inner">
+                <h2>On the Go</h2>
+                <p>
+                    The free Tool Stats App allows users to manage tooling data from the palm of your hand. With each Tool Stats project purchased, you will receive an asset tag with a QR code to fasten to your tool. Simply scan the QR code at any time using the Tool Stats App on your mobile device and be able to access your tooling data instantly! Pull up program details, view files, report issues, send alerts, review process instructions and reference maintenance history without having to leave the tool. The Tool Stats App & QR system guarantees your tool will never be without its data.
+                </p>
+                <div class="badge-wrapper">
+                    <a href="https://itunes.apple.com/us/app/tool-stats/id552040931?mt=8&ign-mpt=uo%3D4"><img src="content/images/badge-appstore.png" /></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.qr.reader.ui&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5xci5yZWFkZXIudWkiXQ"><img src="content/images/badge-android.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="get-in-touch">
+    <a class="anchor" id="about"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Get in touch with us</h2>
+                <ul>
+                    <li class="marker">413 W. Nine Mile Road<br>Ferndale, MI 48220</li>
+                    <li class="phone">Phone: 586.408.9199</li>
+                    <li class="printer">Fax: 586.620.6004</li>
+                    <li class="mail">Sales Email:<br><a href="mailto:sales@toolstats.com">sales@toolstats.com</a></li>
+                    <li class="laptop">Tech Support Email: <br><a href="mailto:support@toolstats.com">support@toolstats.com</a></li>
+                    <li class="debit-card">Payments <br><a href="@ToolStats.Web.Corp.Configuration.PaymentPortal">Supplier Access</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <h2>About us</h2>
+                <p><img src="Content/images/video-about-us.png" id="videoModalButton" style="cursor:pointer;" /></p>
+                <p>
+                    We are located in the heart of metro Detroit in a major
+                    manufacturing hub for multiple industries thanks to our
+                    early automotive roots. Our close relationship with
+                    manufacturing allowed us to focus on ways we could
+                    improve the industry. With that said, ToolStats was
+                    launched in Warren, Michigan in 2010 to simplify the way 
+                    that information is shared across the supply chain. We 
+                    are data solution providers who allow companies to operate 
+                    more efficiently for a fraction of the cost of your tooling 
+                    program. No more playing phone and email tag, relying on 
+                    outdated storage devices, and wasting time tracking down the 
+                    people and files you need to keep your operations running efficiently.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="videoModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin-bottom:5px;">&times;</button>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="container">
+        <ul>
+            <li><a class="section-nav-link" href="#benefits">Benefits</a></li>
+            <li><a class="section-nav-link" href="#how">How it works</a></li>
+            <li><a class="section-nav-link" href="#mobile">Mobile Apps</a></li>
+            <li><a class="section-nav-link" href="#about">About Us</a></li>
+            <li><a class="section-nav-link" href="#about">Contact Us</a></li>
+        </ul>
+        <div class="social-icons">
+            <a target="_blank" href="https://twitter.com/Tool_Stats"><img src="content/images/icon-twitter.png" /></a>
+            <a target="_blank" href="https://www.linkedin.com/company/tool-stats3"><img src="content/images/icon-linkedin.png" /></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    (function (global) {
+        global.toolstats = global.toolstats || {};
+        global.toolstats.testimonialAPI = '@ToolStats.Web.Corp.Configuration.ApiServerPath';
+    }(this));
+
+</script>
+
+<script src="scripts/corp.min.js"></script>
+<script src="scripts/jquery-1.12.3.min.js"></script>
+<script src="scripts/jquery.cycle.all.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/respond.min.js"></script>
+</body>
+</html>
